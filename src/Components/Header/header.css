@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  background-color: var(--headerColor);
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5%;
+}
+
+.header-logo {
+  max-width: 60%;
+}
+
+.header-buttons {
+  align-items: center;
+  text-align: end;
+}
+
+.report-buttons {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .login-button {
+  padding: 10px 30px;
+  background-color: var(--buttonPink);
+  color: var(--whiteGray);
+  border: 1px solid var(--buttonPink);
+}
+
+.header .login-button:hover {
+  cursor: pointer;
+  background-color: var(--headerColor);
+  color: var(--buttonPink);
+}
+
+.header .header-buttons a button {
+  padding: 5px 10px;
+  background-color: var(--buttonPink);
+  color: var(--whiteGray);
+  border: 1px solid var(--whiteGray);
+}
+
+.header .header-buttons a:hover button {
+  background-color: rgba(253, 28, 99, 0.8);
+  cursor: pointer;
+  color: var(--whiteGray);
+}
+
+.report-page .header .header-buttons a:hover {
+  background-color: var(--headerColor);
+}
+.header .header-buttons a:only-of-type button {
+  background-color: var(--buttonPink);
+  color: var(--whiteGray);
+  border: 1px solid var(--whiteGray);
+}
+.header .header-buttons a:only-of-type button:hover {
+  background-color: var(--headerColor);
+  color: var(--buttonPink);
+  border: 1px solid var(--buttonPink);
+}

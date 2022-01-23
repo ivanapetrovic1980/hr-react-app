@@ -1,0 +1,35 @@
+.report-page .single-report {
+  padding: 10px;
+  border: 1px solid var(--headerColor);
+  background-color: var(--headerColor);
+  color: var(--whiteGray);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.single-report-wide-div {
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.single-report h3 {
+  color: var(--buttonPink);
+}
+.single-report-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.single-report-button {
+  color: var(--whiteGray);
+  background-color: var(--headerColor);
+  border: none;
+  font-size: large;
+}
+
+.single-report-button:hover {
+  color: var(--buttonPink);
+  border: none;
+  cursor: pointer;
+}

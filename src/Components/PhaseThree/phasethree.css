@@ -1,0 +1,36 @@
+.text-area {
+  resize: none;
+  width: 100%;
+  background-color: var(--headerColor);
+  color: var(--whiteGray);
+  padding: 5px;
+}
+.text-area:focus {
+  color: var(--whiteGray);
+  outline: 1px solid var(--buttonPink);
+}
+
+.phase-three-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phase-three-select-info .field input,
+.phase-three-select-info .field select {
+  width: 50%;
+  background-color: var(--headerColor);
+  color: var(--whiteGray);
+  padding: 10px;
+}
+.phase-three-select-info .field input:focus,
+.phase-three-select-info .field select:focus {
+  outline: 1px solid var(--buttonPink);
+}
+
+.select-status option:active {
+  background-color: var(--buttonPink);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: var(--buttonPink);
+}

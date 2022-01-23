@@ -1,0 +1,66 @@
+.report-page-container {
+  width: 90%;
+  margin: auto;
+}
+.report-page .header .report-buttons a:first-child {
+  display: none;
+}
+.report-page .header,
+.create-reports .header {
+  margin-bottom: 30px;
+}
+.report-page .search {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.delete-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.delete-modal-hide {
+  display: none;
+}
+.delete-content {
+  padding: 40px;
+  width: 30%;
+  background-color: white;
+  text-align: center;
+}
+.delete-content div:first-child {
+  margin-bottom: 40px;
+  color: var(--buttonPink);
+}
+
+.delete-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.delete-buttons button {
+  padding: 10px 10px;
+  min-width: 60px;
+  background-color: var(--headerColor);
+  color: var(--whiteGray);
+  border: none;
+}
+.delete-buttons button:last-child {
+  background-color: var(--buttonPink);
+  color: var(--whiteGray);
+}
+/* .delete-buttons button:hover {
+  color: var(--buttonPink);
+} */
+
+.header-buttons a button {
+  width: 150px;
+}

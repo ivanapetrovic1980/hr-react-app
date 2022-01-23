@@ -1,0 +1,33 @@
+.two {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.phase-two-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.company-lists {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: var(--headerColor);
+  color: var(--whiteGray);
+}
+
+.company-name {
+  border: 1px solid var(--lightGray);
+  padding: 10px;
+}
+
+.company-name:active,
+.company-name:hover,
+.company-name:focus {
+  background-color: var(--buttonPink);
+  color: var(--whiteGray);
+}

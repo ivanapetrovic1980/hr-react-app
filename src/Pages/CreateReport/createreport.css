@@ -1,0 +1,60 @@
+.create-reports .header .report-buttons a:last-child {
+  display: none;
+}
+
+.create-reports-container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.create-reports .search {
+  margin-bottom: 20px;
+}
+.create-reports-stages-and-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.create-reports-stages {
+  font-size: 120%;
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 1px solid var(--lightGray);
+}
+.create-reports-stages div {
+  margin-bottom: 15px;
+}
+.create-reports-info {
+  min-height: 40%;
+  padding: 20px 0;
+}
+.create-reports-info h3 {
+  color: var(--buttonPink);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.create-reports-phases {
+  margin-bottom: 50px;
+}
+
+.create-reports-phases button {
+  padding: 10px 20px;
+  background-color: var(--headerColor);
+  color: var(--whiteGray);
+  border: 1px solid var(--headerColor);
+  transition: 0.1s ease-in;
+}
+.create-reports-phases button:hover {
+  background-color: var(--buttonPink);
+  border: 1px solid var(--buttonPink);
+}

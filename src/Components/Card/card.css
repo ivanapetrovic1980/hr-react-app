@@ -1,0 +1,35 @@
+.singlecard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+a:hover {
+  background-color: rgba(34, 40, 49, 0.8);
+}
+
+.card-image-div {
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+.card-image-div:hover img {
+  transform: scale(1.2);
+}
+
+.card-image {
+  max-width: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.card-name {
+  padding: 20px 0;
+  color: var(--buttonPink);
+}
+.card-email {
+  padding: 10px;
+  font-size: 0.8rem;
+}

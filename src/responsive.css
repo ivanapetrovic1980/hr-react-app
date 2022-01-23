@@ -1,0 +1,232 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .person-image-and-data .person-image-div {
+    width: 50%;
+  }
+  .report-buttons a {
+    margin-bottom: 10px;
+  }
+  .report-page .header-logo {
+    max-width: 80%;
+  }
+  .report-page .search {
+    text-align: left !important;
+  }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .header-buttons {
+    display: flex;
+  }
+  .report-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  .report-buttons a {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+  .home-page-container .card-wrapper {
+    flex-direction: row;
+  }
+  .home-page-container .candidates-and-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 5% 3% 5%;
+    color: var(--headerColor);
+  }
+
+  .home-page-container .candidates-and-search h1 {
+    margin-bottom: 0;
+  }
+
+  .card-wrapper .single-card-link {
+    width: 46%;
+    margin: 2%;
+  }
+  .card-create-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card-create {
+    width: 46%;
+  }
+
+  .person-image-and-data .person-image-div {
+    width: 40%;
+  }
+  .statuses {
+    display: flex;
+    justify-content: space-between !important;
+    text-align: left !important;
+  }
+  .report-page .single-report {
+    display: flex;
+    text-align: left !important;
+  }
+
+  .single-report-wide-div {
+    min-width: 30%;
+  }
+  .single-report-narrow-div {
+    min-width: 13%;
+  }
+  .report-date {
+    min-width: 20%;
+  }
+  .single-report-buttons {
+    min-width: 7%;
+  }
+
+  .phase-three-select-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  .phase-three-select-info .field,
+  .phase-three-select-info .field {
+    width: 30%;
+  }
+  .phase-three-select-info .field input,
+  .phase-three-select-info .field select {
+    width: 100% !important;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-buttons {
+    justify-content: space-between;
+  }
+  .header-buttons a button {
+    width: 200px !important;
+  }
+  .single-page-container .person-image-and-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-direction: row;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 3px var(--lightGray);
+  }
+  .person-image-and-data .person-image-div {
+    max-width: 25%;
+    padding: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  .person-image {
+    max-width: 75%;
+  }
+  .person-image-and-data .person-data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 100%;
+    background-color: var(--headerColor);
+  }
+  .person-data .person-data-field {
+    margin-bottom: 0;
+    width: 50%;
+  }
+
+  .person-data div:nth-child(3) h2 {
+    font-size: 1rem;
+  }
+
+  .header .header-buttons a button {
+    padding: 10px 30px;
+  }
+  .header-logo {
+    max-width: 60%;
+  }
+
+  .card-create {
+    width: 30%;
+  }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .card-wrapper {
+    padding: 0 3%;
+  }
+
+  .card-wrapper .single-card-link {
+    width: 29.33%;
+    margin: 2%;
+  }
+  .card-email {
+    font-size: 1rem;
+  }
+  .card-name {
+    font-size: 1.2rem;
+  }
+
+  .person-image {
+    max-width: 70%;
+  }
+
+  .modal-show .modal-content {
+    max-width: 40%;
+  }
+
+  .create-reports-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .create-reports-stages {
+    font-size: 1rem;
+  }
+  .create-reports-stages-and-info {
+    padding-right: 50px;
+    min-width: 20%;
+    min-height: 400px;
+  }
+
+  .create-reports-info {
+    min-height: 50%;
+    margin-bottom: 0;
+  }
+  .create-reports-info p,
+  .create-reports-info h3 {
+    margin-bottom: 10px;
+  }
+  .create-reports-phases {
+    min-width: 75%;
+    min-height: 500px;
+  }
+  .one {
+    text-align: right !important;
+  }
+  .card-create {
+    width: 47%;
+    margin-right: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  div.card-create-image {
+    width: 20%;
+  }
+  div.card-create-image img {
+    width: 70%;
+  }
+  .card-create-info {
+    text-align: left;
+    width: 80%;
+  }
+  .card-create-info p {
+    font-size: 1rem !important;
+  }
+
+  .create-reports-phases {
+    margin-bottom: 0 !important;
+  }
+}

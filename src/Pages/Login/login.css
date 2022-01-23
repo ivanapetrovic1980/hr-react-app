@@ -1,0 +1,77 @@
+.loginpage {
+  display: flex;
+  height: 100vh;
+}
+.login-content {
+  margin: auto;
+  box-shadow: 2px 2px 3px 2px var(--lightGray);
+  padding: 50px 100px 80px;
+  text-align: center;
+  min-width: 530px;
+}
+
+.login-field:last-child {
+  margin-bottom: 20px;
+}
+.login-field p {
+  font-size: 2rem;
+  color: var(--headerColor);
+}
+.login-field input {
+  outline: none;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.login-message {
+  color: var(--buttonPink);
+  font-size: 1rem;
+  min-height: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+.login-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.login-buttons a {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-buttons a .login-button {
+  background-color: var(--headerColor);
+  margin-bottom: 0;
+  border: 1px solid var(--headerColor);
+  width: 100%;
+}
+.login-buttons a:hover {
+  background-color: var(--whiteGray);
+}
+.login-buttons a:focus-visible {
+  outline: none;
+}
+.login-buttons a .login-button:hover {
+  color: var(--whiteGray);
+  background-color: rgba(34, 40, 49, 0.8);
+  border: 1px solid var(--headerColor);
+}
+
+.login-buttons .login-button {
+  padding: 10px 30px;
+  background-color: var(--buttonPink);
+  color: var(--whiteGray);
+  border: 1px solid var(--buttonPink);
+  transition: 0.1s ease;
+  margin-bottom: 30px;
+}
+
+.login-button:hover {
+  background-color: rgba(253, 28, 99, 0.8);
+  border: 1px solid var(--buttonPink);
+  cursor: pointer;
+  color: var(--whiteGray);
+}

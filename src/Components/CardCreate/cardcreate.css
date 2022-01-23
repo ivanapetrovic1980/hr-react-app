@@ -1,0 +1,34 @@
+.card-create {
+  border: 1px solid var(--headerColor);
+  color: var(--whiteGray);
+  background-color: var(--headerColor);
+  text-align: center;
+  padding: 20px 0;
+  transition: 0.1s linear;
+  margin: 1%;
+}
+
+.card-create:hover,
+.card-create:active {
+  background-color: var(--buttonPink) !important;
+  border: 1px solid var(--buttonPink);
+}
+
+.card-create-image img {
+  border-radius: 50%;
+  border: 2px solid var(--whiteGray);
+}
+
+.card-reate-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.card-create-info p {
+  font-size: smaller;
+}
+
+.card-create-wrap {
+  margin-bottom: 20px;
+}

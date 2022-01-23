@@ -1,0 +1,99 @@
+.single-page-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.person-image-and-data {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.person-image-div {
+  width: 80%;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.person-image {
+  width: 100%;
+  height: 100%;
+}
+
+.person-data {
+  width: 100%;
+  overflow: hidden;
+  color: var(--whiteGray);
+}
+
+.person-data div:nth-child(3) h2 {
+  font-size: 0.9rem;
+}
+
+.person-data-field {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: var(--headerColor);
+  transition: 0.1s linear;
+}
+
+.person-data-field:hover {
+  background-color: var(--buttonPink);
+}
+
+table {
+  width: 100%;
+  border: 1px solid var(--lightGray);
+  border-spacing: 0;
+  overflow-y: scroll;
+}
+th {
+  text-align: left;
+  border: 1px solid var(--lightGray);
+  color: var(--whiteGray);
+  padding: 10px;
+  background-color: var(--buttonPink);
+}
+tr {
+  border: 1px solid var(--lightGray);
+  color: var(--lightGray);
+}
+td {
+  border: 1px solid var(--lightGray);
+  margin: 0;
+  padding: 10px;
+}
+
+.statuses {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.alert-message {
+  font-size: 180%;
+  color: red;
+  margin-top: 50px;
+}
+.person-report h1 {
+  color: var(--lightGray);
+  margin-bottom: 20px;
+}
+
+td button {
+  border: none;
+}
+td button svg {
+  color: var(--lightGray);
+  font-size: large;
+  cursor: pointer;
+}
+
+td button:hover svg {
+  color: var(--buttonPink);
+}
