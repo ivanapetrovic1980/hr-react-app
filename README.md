@@ -6,7 +6,7 @@ Please follow these simple steps:
 
 2. Extract the file and in that "interviews-reports-api-mock-master" folder run a command line (Git Bash) and type: npm start
 
-3. after you have started a web server you neeb to start the react app with the same command: npm start
+3. after you have started a web server you need to start the react app with the same command: npm start
 
 ### Login
 
